@@ -1,0 +1,8 @@
+CREATE DATABASE auth_service;
+
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(255) NOT NULL,
+    clave VARCHAR(255) NOT NULL
+);
